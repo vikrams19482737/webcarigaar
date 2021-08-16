@@ -11,7 +11,7 @@ function Home(){
 
   return(
          <div className='abc'>
-
+                <Navbar />
                 <Section1 />
                 <Section2 />
                 <Section3 />

@@ -1,0 +1,547 @@
+
+/*
+primary: "#5D3FD3",
+secondary: "#72788A",
+primary is purple
+Secondary is the gray
+*/
+
+
+
+@font-face {
+font-family: "EpilogueBlack";
+src: local("Epilogue"),
+ url("./fonts/Epilogue-Black.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "EpilogueBold";
+src: local("Epilogue"),
+ url("./fonts/Epilogue-Bold.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "EpilogueRegular";
+src: local("Epilogue"),
+ url("./fonts/Epilogue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "NunitoBlack";
+src: local("Nunito"),
+ url("./fonts/Nunito-Black.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "NunitoBold";
+src: local("Nunito"),
+ url("./fonts/Nunito-Bold.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "NunitoRegular";
+src: local("Nunito"),
+ url("./fonts/Nunito-Regular.ttf") format("truetype");
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Fonts and Headings */
+.ch1{
+  font-weight: bold;
+  font-family: "EpilogueBold";
+  font-size: 50px;
+  color: #5D3FD3;
+}
+
+.ch2{
+  font-size:25px;
+  color:white;
+  font-family: "EpilogueBlack";
+}
+
+.ch3{
+  font-size:25px;
+  font-family: 'NunitoBold';
+}
+
+.chlogo{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "EpilogueBold";
+  color: #5D3FD3;
+}
+
+
+.ctext1{
+  font-size: 50px;
+  font-weight: bold;
+  color: #5D3FD3;
+  font-family: 'EpilogueBold', sans-serif;
+}
+
+.ctext2{
+  font-size: 14px;
+  color:#808080;
+  font-weight: 'NunitoRegular';
+}
+
+.ctext3{
+  font-weight: 'NunitoRegular';
+  font-size:14px;
+}
+
+
+
+/* Content */
+.abc{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* Navbar........................................ */
+.navbar_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 10px solid #5D3FD3;
+}
+
+.cnav{
+  display: flex;
+  width: 75%;
+}
+
+.cnav > div:nth-child(1){
+  flex: 1 0 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cnav > div:nth-child(2){
+  flex: 1 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+/* Section1 .............................................*/
+.section1_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom:  1px solid #e3e3e3;
+}
+
+.section1{
+  width: 75%;
+  display: flex;
+  align-items: center;
+  min-height: 700px;
+}
+ .s1-r1{
+   display: flex;
+   height: 100%;
+ }
+ .s1-c1{
+   flex: 1 0 0 ;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-top: 200px;
+ }
+  .s1-c1 > div:nth-child(1){
+    font-weight: bold;
+    background-color: #72788A;
+    color: white;
+    font-size: 12px;
+    border-radius: 30px;
+    padding: 5px;
+    font-family: 'NunitoBlack';
+    box-shadow: 0px 0px 10px 4px #c7c7c7;
+  }
+  .s1-c1 > div:nth-child(2){
+    text-align: left;
+  }
+
+  .s1-c1 > div:nth-child(3){
+    text-align: left;
+  }
+
+  .s1-c1 > div:nth-child(4){
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .myicons1{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .myicons1 > img{
+      margin-top: 10px;
+      width: 200px !important;
+      height: 60px !important;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px 1px grey;
+      margin-right: 20px;
+  }
+
+ .s1-c2{
+   flex: 1 0 0;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+ }
+  .s1-c2 > img{
+    width: 600px;
+    height: 600px;
+  }
+
+
+/* Section2................................................. */
+.section2_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom:  1px solid #e3e3e3;
+  background-color: #fbfaff;
+  padding-bottom: 100px;
+}
+
+.section2{
+  width: 75%;
+  min-height: 700px;
+  display: flex;
+}
+ .s2-c1{
+   flex: 1 0 0;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-top: 100px;
+ }
+ .cline1{
+   display: flex;
+   margin-top: 10px;
+   align-items: center;
+   font-family: 'NunitoRegular';
+ }
+   .clogo1{
+     width: 60px;
+     height: 60px;
+   }
+  .cline1 > img{
+    margin-left: -10px;;
+  }
+  .cline1 > div{
+    display: flex;
+    align-items: center;
+  }
+
+ .s2-c2{
+   flex: 1 0 0;
+   display: flex;
+   justify-content: flex-end;
+ }
+  .cimg2{
+    width: 600px;
+    height: 500px;
+  }
+
+/*CBOX................................*/
+  .cbox1{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+   .cbox1 > div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+     padding: 50px;
+     width: 280px;
+     background-color: white;
+     box-shadow: 0px 0px 5px 1px #ededed;
+     transition-duration: 0.4s;
+     transition-timing-function: linear;
+     transition-delay: 0.1s;
+     margin-right: 20px;
+     margin-top: 20px;
+     cursor: pointer;
+   }
+   .cbox1 > div:hover{
+     background-color: #5D3FD3;
+     color:white;
+   }
+
+   .cbox1 > div > div:nth-child(1){
+      border-radius: 200px;
+      box-shadow: 0px 0px 10px 1px #ededed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      background-color: white !important;
+   }
+
+   .cbox1 > div > div:nth-child(1) > img{
+     width:  50px;
+     height: 50px;
+   }
+   .cbox1 > div > div:nth-child(2){
+     font-size: 30px;
+   }
+   .cbox1 > div > div:nth-child(3){
+     font-size: 16px;
+   }
+
+
+
+/* Section3.................................... */
+.section3_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  border-bottom:  1px solid #e3e3e3;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.section3{
+  display: flex;
+  width: 75%;
+  min-height: 700px;
+}
+ .s3-c1{
+    flex: 1 0 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .cimg3{
+    width: 600px;
+    height: 600px;
+  }
+  .s3-c2{
+    flex: 1 0 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 50px;
+  }
+
+
+
+
+/* Section4................................ */
+.section4_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  background-color: #fbfaff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  min-height: 600px;
+}
+ .s4-r0{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
+  .s4-r0 >img{
+    height: 100px;
+    width: 100px;
+    border-radius: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px #f5f5f5;
+    padding: 4px;
+  }
+ .s4-r1{
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+ }
+
+ .s4-r1 > div:nth-child(1){
+   flex:2 0 0;
+   margin-top: 50px;
+ }
+ .s4-r1 > div:nth-child(2){
+   flex:1 0 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 50px;
+ }
+ .section4 > div{
+   margin-bottom: 20px;
+ }
+ .ch-gallery{
+   width: 100%;
+ }
+
+ .chinner{
+   background-color: #f5f5f5;
+   width: 100%;
+   border-radius: 10px 200px 54px 74px;
+   box-shadow: 0px 0px 50px 5px #dedede;
+ }
+
+ .s4img{
+   width: 60%;
+ }
+
+
+
+
+
+/* Footer....................... */
+.footer_container{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+ .cfooter{
+   display: flex;
+   flex-direction: column;
+   width: 75%;
+   color:white;
+ }
+  .cf-r1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+   .cf-r1 > div{
+     flex: 1 0 0;
+     padding: 10px;
+     min-width: 300px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+   }
+   .cf-r1 > div > div{
+     margin-bottom: 10px;
+     align-items: flex-start;
+     text-align: left;
+   }
+  .cf-r2{
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  .cf-r2-c1{
+    flex: 1 0 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .cf-r2-c2{
+    flex: 1 0 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+   .cf-r2-c2 > svg{
+     margin-left: 20px;
+     height: 50px;
+   }
+
+
+
+
+
+@media only screen and (max-width:900px){
+  .section1, .section2, .section3, .section4{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+  }
+
+  .s1-c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+   .s1-c1 > div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+   }
+
+  .s1-c1, .s2-c1, .s3-c2{
+    padding-top: 40px;
+  }
+  .cimg1, .cimg2, .cimg3{
+    height: 400px !important;
+    width: 300px !important;
+    margin-top: 50px;
+  }
+  .s4img{
+    height: 400px;
+    width: 300px;
+  }
+  .cline1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ch-gallery{
+    width: 90%;
+  }
+  .chinner{
+    width: 100%;
+  }
+
+  .ctext4{
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width:901px ) and (max-width:1400px){
+  .section1, .section2, .section3{
+    display: flex;
+    width: 95%;
+  }
+  .s1-c1{
+    margin-top: 20px;
+  }
+}

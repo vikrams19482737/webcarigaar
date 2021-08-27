@@ -18,12 +18,12 @@ function Section1(){
                        look for your required service and rest our web-platform will find best match for your required services.
                      </div>
                      <div className='myicons1'>
-                        <img data-aos="fade-up" src={imgApp1} alt="Image1"/>
-                        <img data-aos="fade-down" src={imgApp2} alt="Image2" />
+                        <img src={imgApp1} alt="Image1"/>
+                        <img src={imgApp2} alt="Image2" />
                      </div>
                  </div>
                  <div className='s1-c2'>
-                      <img data-aos="fade-up" data-aos-duration="3000" className='cimg1' src={homeimage1}  />
+                      <img   className='cimg1' src={homeimage1}  />
                  </div>
 
             </div>

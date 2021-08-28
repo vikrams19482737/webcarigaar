@@ -1,5 +1,4 @@
 import React from 'react-dom'
-import homeimsage1 from './cimg1.jpg';
 import homeimage1  from './cimg4.svg';
 
 function Section4(){

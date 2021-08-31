@@ -11,7 +11,7 @@ function Section4(){
                <div className='ctext3'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
               </div>
               <div className='s4-r1'>
-                 <div data-aos="fade-up" data-aos-duration="3000"  id="carouselExampleControls" className="carousel slide ch-gallery" data-ride="carousel">
+                 <div   id="carouselExampleControls" className="carousel slide ch-gallery" data-ride="carousel">
                       <div className="carousel-inner chinner">
                        <div className="carousel-item active">
                          <img className='s4img' src={homeimage1} alt="First slide" />

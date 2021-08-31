@@ -9,7 +9,7 @@ function Section3(){
        <div className='section3_container'>
            <div className='section3'>
                   <div className='s3-c1'>
-                      <img data-aos="fade-up" data-aos-duration="3000" className='cimg3' src={cimg3} alt="cimg3"  />
+                      <img  className='cimg3' src={cimg3} alt="cimg3"  />
                   </div>
                   <div className='s3-c2'>
                         <div className="ctext1"> Looking for Handyman ? </div>

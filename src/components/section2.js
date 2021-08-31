@@ -26,7 +26,7 @@ function Section2(){
                         </div>
                   </div>
                   <div className='s2-c2'>
-                        <img data-aos="fade-up" data-aos-duration="3000" className='cimg2' src={cimg2} alt="cimg2"  />
+                        <img className='cimg2' src={cimg2} alt="cimg2"  />
                   </div>
             </div>
         </div>

@@ -12,6 +12,8 @@ function App() {
           <Route exact path='/forgot-password' component={EnterEmail}/>
           <Route exact path='/forgot-password/reset/:token' component={Reset}/>
 
+
+
     </Router>
   );
 }

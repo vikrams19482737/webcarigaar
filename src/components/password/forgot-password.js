@@ -1,6 +1,6 @@
 import React from 'react-dom';
 import {useState, useEffect} from 'react'
-
+import Navbar from '../navbar.js'
 // Forgot password enter email
 
 function EnterEmail(){
@@ -40,15 +40,18 @@ if(mytoken !== 'done'){
 
 
    return(
-     <div>
-       {error}
+     <div className="creset">
+     <Navbar />
+     <div className="ch1"> Carigaar </div>
+     <div className="creset-box">
+       <div> Reset your password here please enter your email address and a link will be sent to your email. Click on the link and follow instructions. </div>
         <form onSubmit={send_data}>
-            <div> Enter Email </div>
+            <p> {error} </p>
+            <div className='ctext4'> Enter Email </div>
             <input type="text" name='email' onChange={(e) => { setEmail(e.target.value)}} />
             <button onClick={send_data} > Submit </button>
-            {email}
         </form>
-
+      </div>
      </div>
    )
  }

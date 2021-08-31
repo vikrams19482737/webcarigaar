@@ -105,6 +105,10 @@ code {
   font-size:14px;
 }
 
+.ctext4{
+  font-weight: 'NunitoRegular';
+  font-size: 25px;
+}
 
 
 /* Content */
@@ -544,4 +548,44 @@ code {
   .s1-c1{
     margin-top: 20px;
   }
+}
+
+
+
+
+
+/* Reset Password */
+.creset{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.creset-box {
+  width: 80%;
+
+}
+
+.creset-box > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.creset-box > form > input{
+  width: 300px;
+  margin-top: 5px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  height: 40px;
+  padding: 5px;
+}
+
+.creset-box > form > button{
+  width: 300px;
+  margin-top: 5px;
+  color: white;
+  background-color: #5D3FD3;
+  height: 40px;
+  border-radius: 5px;
 }
